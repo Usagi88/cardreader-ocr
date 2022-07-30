@@ -1,0 +1,75 @@
+{
+  "name": "fahipayocrs",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx"
+  },
+  "dependencies": {
+    "@apollo/client": "^3.5.10",
+    "@react-native-async-storage/async-storage": "^1.17.3",
+    "@types/react-native-dotenv": "^0.2.0",
+    "apollo-boost": "^0.4.9",
+    "apollo-link": "^1.2.14",
+    "apollo-link-context": "^1.0.20",
+    "apollo-link-error": "^1.1.13",
+    "apollo-link-ws": "^1.0.20",
+    "apollo-upload-client": "^17.0.0",
+    "apollo-utilities": "^1.3.4",
+    "graphql": "^15.8.0",
+    "graphql-upload": "^13.0.0",
+    "graphql-ws": "^5.6.4",
+    "lodash": "^4.17.21",
+    "react": "17.0.2",
+    "react-native": "0.67.4",
+    "react-native-dotenv": "^3.3.1",
+    "react-native-extended-stylesheet": "^0.12.0",
+    "react-native-flash-message": "^0.2.1",
+    "react-native-image-picker": "^4.7.3",
+    "react-native-linear-gradient": "^2.5.6",
+    "react-native-paper": "^4.11.2",
+    "react-native-switches": "^1.2.5",
+    "react-native-text-recognition": "^1.0.0",
+    "react-native-toggle-element": "^1.0.1",
+    "react-native-vector-icons": "^9.1.0",
+    "react-native-vision-camera": "^2.13.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.9",
+    "@babel/runtime": "^7.12.5",
+    "@react-native-community/eslint-config": "^2.0.0",
+    "@types/apollo-upload-client": "^17.0.0",
+    "@types/graphql-upload": "^8.0.11",
+    "@types/jest": "^26.0.23",
+    "@types/lodash": "^4.14.181",
+    "@types/react-native": "^0.66.15",
+    "@types/react-native-vector-icons": "^6.4.10",
+    "@types/react-test-renderer": "^17.0.1",
+    "@typescript-eslint/eslint-plugin": "^5.7.0",
+    "@typescript-eslint/parser": "^5.7.0",
+    "babel-jest": "^26.6.3",
+    "eslint": "^7.14.0",
+    "jest": "^26.6.3",
+    "metro-react-native-babel-preset": "^0.66.2",
+    "react-test-renderer": "17.0.2",
+    "typescript": "^4.4.4"
+  },
+  "resolutions": {
+    "@types/react": "^17"
+  },
+  "jest": {
+    "preset": "react-native",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "jsx",
+      "json",
+      "node"
+    ]
+  }
+}
